@@ -26,6 +26,10 @@ Version: 1.0;
         text-align: right;
     }
 
+    .text-center{
+        text-align: center;
+    }
+
     .clearfix{
         clear: both;
         float: none;
@@ -38,6 +42,24 @@ Version: 1.0;
     }
     a:hover{
         color: darkred;
+    }
+
+    .btn{
+        padding: 1%;
+        border: none;
+        font-size: 1rem;
+        border-radius: 25px;
+    }
+
+    .btn-primary{
+        background-color:rgb(6, 6, 7);
+        color: rgb(245, 243, 243);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .btn-primary:hover{
+        background-color: darkblue;
+        color: darkgray;
     }
     
 
@@ -66,6 +88,18 @@ Version: 1.0;
 /* CSS for Food Section */
 
 .food-search{
-    background-image:  url(./assets/bg.jpg);
+    background-image:  url(./assets/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
 }
 
