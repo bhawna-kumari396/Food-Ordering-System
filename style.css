@@ -13,13 +13,16 @@ Version: 1.0;
 
 
 .container{
-    border: 1px solid red;
+    
     width: 80%;
     margin: 0 auto;
     padding: 1%;
 }
 .img-responsive{
     width: 100%;
+    }
+    .img-curve{
+        border-radius: 20px;
     }
 
     .text-right{
@@ -62,11 +65,31 @@ Version: 1.0;
         color: darkgray;
     }
     
+    h2{
+        color: rgb(59, 59, 59);
+        font-size: 2rem;
+
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+
+    .float-container{
+        position: relative;
+        
+
+    }
+    .float-text{
+        position: absolute;
+        bottom: 10px;
+        left: 45%;
+        color: white;
+    }
 
 /* Css for Navbar Section*/
 
 .logo{
-    border: 1px solid black;
+    
     width: 10%;
     float: left;
 
@@ -103,3 +126,70 @@ Version: 1.0;
     border-radius: 20px;
 }
 
+/* CSS for categories */
+
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/* CSS for food menu */
+
+.food-menu{
+    background-color: rgb(236, 236, 252);
+    padding: 4% 0;
+}
+
+.food-menu-box
+{
+    border: 1px solid black;
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+
+
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+
+}
+
+/* CSS for social */
+
+.social ul{
+    list-style-type: none;
+
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+    
+
+
+}
