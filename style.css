@@ -191,3 +191,60 @@ Version: 1.0;
     display: inline;
     padding: 1%;
 }
+
+
+/* CSS for mobile size or smaller screen */
+
+@media only screen and (max-width: 768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+
+
+    }
+
+    .menu ul{
+        text-align: center;
+
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10%;
+    }
+    .categories{
+        padding: 20% 0;
+    }
+
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 90%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+
+}
