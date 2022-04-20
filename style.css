@@ -33,6 +33,13 @@ Version: 1.0;
         text-align: center;
     }
 
+    .text-left{
+        text-align: left;
+    }
+    .text-white{
+        color: blanchedalmond;
+    }
+
     .clearfix{
         clear: both;
         float: none;
@@ -68,7 +75,7 @@ Version: 1.0;
     h2{
         color: rgb(59, 59, 59);
         font-size: 2rem;
-        margin-bottom: 1%;
+        margin-bottom: 2%;
 
     }
     h3{
@@ -86,6 +93,15 @@ Version: 1.0;
         left: 45%;
         color: white;
     }
+
+    fieldset{
+        border: 1px solid white;
+        margin: 5%;
+        padding: 3%;
+        border-radius: 5px;
+    }
+
+
 
 /* Css for Navbar Section*/
 
@@ -107,6 +123,7 @@ Version: 1.0;
 .menu ul li{
     display: inline;
     padding: 1%;
+    font-weight: bold;
 }
 
 /* CSS for Food Section */
@@ -149,7 +166,7 @@ Version: 1.0;
 
 .food-menu-box
 {
-    border: 1px solid black;
+    
     width: 43%;
     margin: 1%;
     padding: 2%;
@@ -192,6 +209,28 @@ Version: 1.0;
     padding: 1%;
 }
 
+/* for order section*/
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.input-resposive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order-lable{
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
 
 /* CSS for mobile size or smaller screen */
 
@@ -230,7 +269,7 @@ Version: 1.0;
         margin-bottom: 10%;
     }
     .box-3{
-        width: 90%;
+        width: 100%;
         margin: 4% auto;
     }
 
@@ -245,6 +284,10 @@ Version: 1.0;
     }
     .social{
         padding: 5% 0;
+    }
+
+    .order{
+        width: 100%;
     }
 
 }
